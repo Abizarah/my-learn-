@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* * {
+    width: 100px;
+    height: 100px;
+} */
+/* html {
+    width: 100vh;
+    height: 100vh;
+} */
+
+body {
+    /* width: 100%;
+    height: 100%; */
+    font-family: Poppins;
+    /* background: linear-gradient(90, 20, 20), rgb(10, 8, 110);
+    height: 100%; */
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* height: 200px; */
+
+}
+
+.number {
+    /* float: left; */
+    border: 1px solid;
+    width: 700px;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.number button {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    float: left;
+    width: 200px;
+    font-size: 160px;
+    border: 1px solid;
+    margin-left: 25px;
+    margin-top: 30px;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+}
+
+
+.operrator button {
+    display: grid;
+    width: 200px;
+    font-size: 106px;
+    border: 1px solid;
+    margin-left: 15px;
+}
+
+.value {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid;
+    font-size: 100px;
+}
+
+.result {
+    border: 0.5px solid;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+
+    height: 100px;
+    width: 500px;
+    font-size: 200px;
+    border: 1px solid;
+}
+
+button {
+    cursor: pointer;
+}
